@@ -1,12 +1,19 @@
 /* Page Specific CSS */
 
-body {font-family: Lato; background: #fff; color: #333; font-size: 16px; border: 52px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
+body {
+  font-family: Lato;
+  background: #F8F8F8;
+  color: #333;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 20px 100px 20px;
+}
 h1 {font-size: 80px; font-family: Amatic SC; font-weight: normal; margin: 0px;}
 h2 {font-size: 50px; font-family: Amatic SC; font-weight: normal; margin: 11px 0px;}
 h3 {font-family: Amatic SC; font-size: 30px; margin: 10px 0px;}
 h4 {font-family: Lato; font-size: 24px;}
 
-img {width: 100%;} 
+img {width: 100%;}
 p a, a {color: #333; text-decoration: none; padding-bottom: 0px; border-bottom: 1px #FD9393 solid;}
 a:hover {color: #47CCFC;}
 small {padding: 10px 0px; font-size: 10px;}
@@ -26,7 +33,7 @@ code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font
 .container {margin: 24px 0px;}
 #tableFilter {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; font-family: Lato; color: #333; font-size: 13px; height: 22px;}
 
-::selection {background: #E5FF1D;} 
+::selection {background: #E5FF1D;}
 ::-moz-selection {background: #E5FF1D;}
 
 ul.nav {list-style: none; margin: 0px; padding: 0px;}
@@ -67,4 +74,3 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
   #wrapper {max-width: 460px; padding-top: 20px;}
   #hackSpotsTable, #map {min-width: 224px;}
 }
-

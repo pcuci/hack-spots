@@ -1,8 +1,6 @@
-# Hi License! 
+# Hi License!
 
 ## This repo is BSD licensed.
-
-
 
 Redistribution and use of this software in source and binary forms, with or
 without modification, are permitted provided that the following conditions are
