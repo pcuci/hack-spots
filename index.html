@@ -42,18 +42,16 @@
         <div id="hackSpotsTable"></div>
       </div>
       <div id="info" class="container">
-        <h3>Contribute!</h3>
         <div id="theNumberofSpots"></div>
         <p>This website is hooked up to <a href="https://docs.google.com/spreadsheets/d/1uY_V0bpagVhy8df9-feNH3XXYHNEQbRRXcb1NcSVCu4/edit?usp=sharing" target="_blank">this Google Spreadsheet</a>, which I've shared, so click and add your favorite community project to the bottom of the list! For the map you'll need to <strong>get the lat and long</strong> of the location where that teams usually meets to hack together, you can get that <a href="http://www.latlong.net/" target="_blank">here</a>. Locating of these places is helpful, so please try to fill out all the columns.</p>
 
         <h3>Motivation</h3>
-        <p>Many NodeSchool participants have ambitions to develop their own projects. Today it is difficult to coordinate learning+dev activities in the wider community. Where do I find someone who can help my team, how do I discover a project to contribute to? This listing is an attempt to keep ephemeral theamed projects active and shared amongst the community of learners, mentors, but also non-tech business co-founders wishing to stay plugged with the tech learning community.</p>
+        <p>NodeSchool participants have ambitions to develop their own projects. Today, it is difficult to coordinate learning+dev activities in the wider community. Where do I find someone who can help my team, how do I discover a project worth contributing to? This listing is an attempt to keep ephemeral projects active and shared amongst the community of learners, mentors, but also non-tech business co-founders wishing to stay plugged with the tech learning community.</p>
 
         <p>Besides being a list I've wanted to have, it's a fantastic (or I think so) way of using <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, which is a little JavaScript library <a href="http://www.twitter.com/jlord" target="_blank">@jlord</a>'s been working on. Sheetsee.js helps you hook a Google Spreadsheet (awesome for data and collaboration!) to a website to make data more visual (maps, tables, charts).</p>
 
         <h3>Theamed?</h3>
-        <p>A team working on a theme to advance a project, a themed team, a theam.</p>
-        <p>As learning vehicles, projects die quickly. A theam survives as a team advancing their collective skills across multiple similarly themed projects.</p>
+        <p>As learning vehicles, projects die quickly. A team advancing their collective skills across multiple similarly themed projects sticks together. A team working on a theme to advance a project, a themed team, a theam.</p>
 
         <h3>Fork-n-Go</h3>
         <p>There is just a <a href="https://github.com/pcuci/nodeschool-theams" target="_blank">gh-pages branch in GitHub</a> for this project so when you fork it, you've got a live and hosted website instantly. BAM! Just copy the spreadsheet headers and create your own spreadsheet, swap out the spreadsheet key in index.html and commit those changes: you've got a live and hosted site with a spreadsheet you control. More on the <a href="http://www.github.com/pcuci/nodeschool-theams" target="_blank">readme</a>.</p>
@@ -67,7 +65,7 @@
           <th class="tHeader">Who</th>
           <th class="tHeader">Help Wanted</th>
           <th class="tHeader">Theam</th>
-          <th class="tHeader">City</th>
+          <th class="tHeader">Neighbourhood</th>
           <th></th>
         </tr>
         {{#rows}}
@@ -76,7 +74,7 @@
             <td>{{who}}</td>
             <td>{{help}}</td>
             <td>{{theamname}}</td>
-            <td>{{city}}</td>
+            <td>{{neighbourhood}}</td>
             <td>
               <a class="button" href="https://maps.google.com/maps?q={{address}},{{city}},{{state}}" target="_blank">Map</a>
             </td>
@@ -111,7 +109,7 @@
     </script>
 
     <script id="theNumberofSpots" type="text/html">
-      <p><strong><span class="red-text">{{numberOfSpots}}</span> theamed projects!</p>
+      <p><strong><span class="red-text">{{numberOfSpots}}</span> theamed projects strong!</p>
     </script>
 
     <script id="selectedSpot" type="text/html">

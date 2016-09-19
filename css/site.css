@@ -8,16 +8,16 @@ body {
   margin: 0;
   padding: 0 20px 100px 20px;
 }
-h1 {font-size: 80px; font-family: Amatic SC; font-weight: normal; margin: 0px;}
-h2 {font-size: 50px; font-family: Amatic SC; font-weight: normal; margin: 11px 0px;}
-h3 {font-family: Amatic SC; font-size: 30px; margin: 10px 0px;}
+h1 {font-size: 80px; font-family: Amatic SC; font-weight: normal; margin: 0;}
+h2 {font-size: 50px; font-family: Amatic SC; font-weight: normal; margin: 11px 0;}
+h3 {font-family: Amatic SC; font-size: 30px; margin: 10px 0;}
 h4 {font-family: Lato; font-size: 24px;}
 
 img {width: 100%;}
-p a, a {color: #333; text-decoration: none; padding-bottom: 0px; border-bottom: 1px #FD9393 solid;}
+p a, a {color: #333; text-decoration: none; padding-bottom: 0; border-bottom: 1px #FD9393 solid;}
 a:hover {color: #47CCFC;}
-small {padding: 10px 0px; font-size: 10px;}
-p {margin: 0px; padding: 0px; font-size: 12px;}
+small {padding: 10px 0; font-size: 10px;}
+p {margin: 0; padding: 0; font-size: 12px;}
 li {line-height: 19px; font-size: 12px;}
 ol {line-height: 24px;}
 a.button {border: none;}
@@ -30,18 +30,24 @@ code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font
 #map {height: 400px; max-width: 530px; min-width: 300px; background: #DADADA;}
 #map a {border: none;}
 
-.container {margin: 24px 0px;}
-#tableFilter {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; font-family: Lato; color: #333; font-size: 13px; height: 22px;}
+.container {margin: 24px 0;}
+#tableFilter {margin: 12px 0; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0; font-family: Lato; color: #333; font-size: 13px; height: 22px;}
 
 ::selection {background: #E5FF1D;}
 ::-moz-selection {background: #E5FF1D;}
 
-ul.nav {list-style: none; margin: 0px; padding: 0px;}
+ul.nav {list-style: none; margin: 0; padding: 0;}
 ul.nav li {display: inline; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; padding-right: 4px;}
 ul.nav li a {border: none;}
 ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 
-#wrapper {margin: 0px auto; max-width: 900px; padding-top: 40px; /*margin-left: 250px;*/}
+#wrapper {
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 40px;
+}
 
 .button {padding: 5px 5px; background-color: #BEBEBE; font-size: 10px; color: #fff;}
 .button:hover {background: #B9FCFC; color: #47CCFC;}
@@ -53,7 +59,7 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 
 #rightSide {height: 400px; max-width: 350px; width: 100%; float: right; padding-top: 5px;}
 #selectedSpot {display: none;}
-#latestSpot ul, #selectedSpot ul {list-style: none; margin-top: 12px 0px; padding: 0px;}
+#latestSpot ul, #selectedSpot ul {list-style: none; margin-top: 12px 0; padding: 0;}
 .category {text-transform: uppercase; font-size: 9px; letter-spacing: .2em; padding-right: 6px;}
 
 #info p {font-size: 14px; padding: 4px; line-height: 19px; font-weight: 300;}
@@ -69,7 +75,7 @@ ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
 .selectedRow {color: #FF4C0D;}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1024px) {
-  body {border: 20px #F8F8F8 solid; margin: 0px; padding: 20px 20px 80px 20px;}
+  body {border: 20px #F8F8F8 solid; margin: 0; padding: 20px 20px 80px 20px;}
   #tableFilter, .clear, .resetMap {display: none;}
   #wrapper {max-width: 460px; padding-top: 20px;}
   #hackSpotsTable, #map {min-width: 224px;}
