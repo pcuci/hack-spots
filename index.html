@@ -71,8 +71,8 @@
         {{#rows}}
           <tr id="{{rowNumber}}" class="spotRow">
             <td>{{problem}}</td>
-            <td>{{who}}</td>
-            <td>{{help}}</td>
+            <td>{{forwhom}}</td>
+            <td>{{helpwanted}}</td>
             <td>{{theamname}}</td>
             <td>{{neighbourhood}}</td>
             <td>
@@ -91,9 +91,9 @@
         <p class="colorText">{{city}}{{#state}}, {{state}}{{/state}}{{#postcode}}, {{postcode}}{{/postcode}}</p>
         <ul>
           <li><span class="category">Problem:</span> {{problem}}</li>
-          <li><span class="category">Who:</span> {{who}}</li>
+          <li><span class="category">Who:</span> {{forwhom}}</li>
           <li><span class="category">Benefit:</span> {{benefit}}</li>
-          <li><span class="category">Help Wanted:</span> {{help}}</li>
+          <li><span class="category">Help Wanted:</span> {{helpwanted}}</li>
           <li><span class="category">Solution:</span> {{solution}}</li>
           <li><span class="category">Tech:</span> {{tech}}</li>
           <li><span class="category">Lang:</span> {{lang}}</li>
@@ -120,9 +120,9 @@
         <p class="colorText">{{city}}{{#state}}, {{state}}{{/state}}{{#postcode}}, {{postcode}}{{/postcode}}</p>
         <ul>
           <li><span class="category">Problem:</span> {{problem}}</li>
-          <li><span class="category">Who:</span> {{who}}</li>
+          <li><span class="category">Who:</span> {{forwhom}}</li>
           <li><span class="category">Benefit:</span> {{benefit}}</li>
-          <li><span class="category">Looking for:</span> {{help}}</li>
+          <li><span class="category">Looking for:</span> {{helpwanted}}</li>
           <li><span class="category">Solution:</span> {{solution}}</li>
           <li><span class="category">Tech:</span> {{tech}}</li>
           <li><span class="category">Lang:</span> {{lang}}</li>
